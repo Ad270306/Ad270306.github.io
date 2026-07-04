@@ -71,7 +71,6 @@ export default function Home() {
               <ul className="space-y-2 text-sm text-slate-600 font-medium">
                 <li>Next.js / React</li>
                 <li>Spring Boot</li>
-                <li>Node.js</li>
                 <li>WPF</li>
               </ul>
             </div>
@@ -80,7 +79,6 @@ export default function Home() {
               <ul className="space-y-2 text-sm text-slate-600 font-medium">
                 <li>Power BI</li>
                 <li>Supabase / Stockage relationnel</li>
-                <li>Odoo ERP</li>
                 <li>Jupyter / Google Colab</li>
               </ul>
             </div>
@@ -89,7 +87,6 @@ export default function Home() {
               <ul className="space-y-2 text-sm text-slate-600 font-medium">
                 <li>Docker / Docker Compose</li>
                 <li>Git / CI-CD GitHub Actions</li>
-                <li>Microsoft Azure</li>
               </ul>
             </div>
           </div>
@@ -111,7 +108,7 @@ export default function Home() {
               <span className="text-[11px] font-semibold uppercase tracking-wider text-indigo-600 bg-indigo-50/70 px-2 py-0.5 rounded">Stage EPSI — En cours</span>
               <h3 className="text-lg font-bold text-slate-900 mt-3 group-hover:text-indigo-600 transition-colors">SmartGamble</h3>
               <p className="text-sm text-slate-600 mt-2 mb-4 leading-relaxed">
-                Plateforme d'analyse et outil d'aide à la décision dédié aux prédictions sportives. Conception de flux d'importation de données et d'une interface utilisateur dynamique haute performance.
+                Plateforme d'analyse et outil d'aide à la décision dédié aux prédictions des cinq grands championnats de football en Europe. Conception de flux d'importation de données et d'une interface utilisateur dynamique et facile à utiliser.
               </p>
               <div className="flex flex-wrap gap-2 text-xs font-medium text-slate-500">
                 <span>Next.js</span>•<span>TypeScript</span>•<span>Python</span>•<span>Supabase</span>
@@ -166,17 +163,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Gestion Territoriale */}
-            <div className="bg-white border border-slate-200/80 p-6 rounded-xl">
-              <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-500 bg-slate-100 px-2 py-0.5 rounded">Soutenance de Fin de Cycle</span>
-              <h3 className="text-lg font-bold text-slate-900 mt-3">Gestion Territoriale Mairie</h3>
-              <p className="text-sm text-slate-600 mt-2 mb-4 leading-relaxed">
-                Analyse, modélisation fonctionnelle et déploiement d'une application d'administration centralisée des services et collectivités locales pour la municipalité de Grand Bassam.
-              </p>
-              <div className="flex flex-wrap gap-2 text-xs font-medium text-slate-500">
-                <span>Python</span>•<span>ERP Odoo</span>•<span>PostgreSQL</span>
-              </div>
-            </div>
+           
 
           </div>
         </div>
