@@ -141,7 +141,10 @@ export default function Home() {
 
             {/* L'atelier d'Archimède */}
             <div className="bg-white border border-slate-200/80 p-6 rounded-xl relative">
-              <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-700 bg-amber-50 px-2 py-0.5 rounded">Lauréat — 1ère Place Techday</span>
+              <div className="flex flex-wrap gap-2">
+                <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-700 bg-amber-50 px-2 py-0.5 rounded">Lauréat — 1ère Place Techday</span>
+                <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-500 bg-slate-100 px-2 py-0.5 rounded">Code source indisponible (ancien dépôt école)</span>
+              </div>
               <h3 className="text-lg font-bold text-slate-900 mt-3">L'atelier d'Archimède</h3>
               <p className="text-sm text-slate-600 mt-2 mb-4 leading-relaxed">
                 Logiciel de modélisation 3D destiné à l'architecture d'intérieur et au prototypage de décors de jeux vidéo. Projet récompensé pour sa fluidité algorithmique à l'ESIEA.
@@ -153,7 +156,10 @@ export default function Home() {
 
             {/* Bricks */}
             <div className="bg-white border border-slate-200/80 p-6 rounded-xl relative">
-              <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-700 bg-amber-50 px-2 py-0.5 rounded">Lauréat — 1ère Place Techday</span>
+              <div className="flex flex-wrap gap-2">
+                <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-700 bg-amber-50 px-2 py-0.5 rounded">Lauréat — 1ère Place Techday</span>
+                <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-500 bg-slate-100 px-2 py-0.5 rounded">Code source indisponible (ancien dépôt école)</span>
+              </div>
               <h3 className="text-lg font-bold text-slate-900 mt-3">Bricks</h3>
               <p className="text-sm text-slate-600 mt-2 mb-4 leading-relaxed">
                 Application ludo-éducative permettant aux jeunes profils d'appréhender la logique algorithmique et la création de scénarios de jeux sans barrière de syntaxe de code.
@@ -163,7 +169,17 @@ export default function Home() {
               </div>
             </div>
 
-           
+            {/* ObRail Europe */}
+            <a href="https://github.com/Ad270306/obrail-europe" target="_blank" rel="noopener noreferrer" className="group block bg-white border border-slate-200/80 p-6 rounded-xl hover:border-indigo-500/50 hover:shadow-md transition-all duration-300">
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-500 bg-slate-100 px-2 py-0.5 rounded">Projet académique — EPSI (groupe de 3)</span>
+              <h3 className="text-lg font-bold text-slate-900 mt-3 group-hover:text-indigo-600 transition-colors">ObRail Europe</h3>
+              <p className="text-sm text-slate-600 mt-2 mb-4 leading-relaxed">
+                Plateforme data & IA pour un observatoire ferroviaire européen fictif, réalisée en trois volets : pipeline ETL harmonisant 3 sources GTFS (SNCF, Deutsche Bahn, SNCB) vers une base PostgreSQL, industrialisation complète avec API REST, frontend, conteneurisation Docker, pipeline CI/CD et supervision Grafana/Prometheus, puis modèles de machine learning (Random Forest, régression logistique) prédisant les émissions de CO2 (random forest) et détectant les gares sous-desservies (régression logistique).
+              </p>
+              <div className="flex flex-wrap gap-2 text-xs font-medium text-slate-500">
+                <span>Python</span>•<span>FastAPI</span>•<span>PostgreSQL</span>•<span>scikit-learn</span>•<span>Docker</span>•<span>React/Next.js</span>•<span>Airflow</span>•<span>Grafana</span>
+              </div>
+            </a>
 
           </div>
         </div>
