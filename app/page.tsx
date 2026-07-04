@@ -21,7 +21,7 @@ export default function Home() {
           {/* Badge de statut */}
           <div className="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-indigo-700 bg-indigo-50 rounded-full border border-indigo-100/80 mb-6">
             <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 animate-pulse"></span>
-            Recherche d'alternance — Data, BI & IA
+            Recherche d'alternance — Développeur Full-Stack, Data, BI & IA
           </div>
           
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.15]">
@@ -29,9 +29,8 @@ export default function Home() {
           </h1>
           
           <p className="text-lg text-slate-600 leading-relaxed mb-8">
-            Actuellement en Bac +3 à l'EPSI, je me spécialise dans la conception d'architectures applicatives, 
-            le déploiement de pipelines de données et l'intégration de modèles prédictifs. Mon objectif est d'apporter 
-            des solutions techniques concrètes aux défis de la Data Science et de la Business Intelligence.
+           Étudiant en Bac+3 à l'EPSI, je suis passionné par le développement informatique, la Data et l'Intelligence Artificielle. J'acquiers des compétences en développement Full Stack, gestion et analyse de données, Business Intelligence et conception de solutions logicielles. À travers mes projets, je cherche à concevoir des applications et des outils fiables, performants et adaptés aux besoins des utilisateurs.
+
           </p>
           
           <div className="flex flex-wrap gap-4">
